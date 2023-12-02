@@ -1,0 +1,262 @@
+/* Reset de estilos para zerar margens e paddings padrão do navegador */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o corpo do blog */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Estilo para o cabeçalho do blog */
+header {
+  background-color: #100E0F;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img{
+  width: 100%;
+  max-width: 100px;
+}
+header span{
+  width: 100%;
+}
+header h1 {
+  font-size: 36px;
+  width: 80%;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+nav {
+  width: 20%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: auto;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline;
+  text-align: center;
+  width: 33.3333%;
+}
+
+nav ul li a {
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+  margin: 50px 0px 0px 0px;
+}
+main h1{
+  text-align: center;
+  margin-bottom: 70px;
+  max-width: 1360px;
+  margin: auto;
+  font-size: 34px;
+}
+.img{
+  width: 50% !important;
+}
+.img img{
+  width: 100% !important;
+}
+/* Primeira Section */
+.first-section{
+  background-color: #018b14;
+  padding-bottom: 50px;
+}
+.first-section h2{
+  font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 55px;
+    margin-top: -75px;
+}
+.first-section p{
+  line-height: 28px;
+  font-size: 18px;
+  padding-top: 35px;
+}
+.first-section h2, .first-section p{
+  color: #fff;
+}
+
+.first-section .mx-wd{
+  max-width: 1360px;
+  margin: 50px auto 0px auto;
+  width: 100% !important;
+}
+.first-section .flex{
+ display: flex; 
+ width: 100%;
+ align-items: center;
+}
+.first-section div{
+  width: 50%;
+}
+.first-section div:first-child{
+  padding-top: 35px;
+  padding-right: 20px;
+}
+
+
+
+/* SECOND SECTION */
+.second-section{
+  background-color: #000000;
+  padding-top: 110px;
+  padding-bottom: 50px;
+}
+.second-section .mx-wd{
+  max-width: 1360px;
+  margin: 0px auto 50px auto;
+  width: 100% !important;
+}
+.second-section .flex{
+  display: flex; 
+  width: 100%;
+  align-items: center;
+}
+.second-section .texts{
+  width: 50%;
+  color: #fff;
+  padding-left: 25px;
+}
+.second-section h2{
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 55px;
+  margin-top: -75px;
+}
+.second-section p{
+  line-height: 28px;
+  font-size: 18px;
+  padding-top: 35px;
+}
+.second-section h2, .second-section p{
+  color: #fff;
+}
+/* Estilo para o rodapé */
+footer {
+  background-color: #333;
+  /* Cinza escuro */
+  color: #fff;
+  /* Texto branco */
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilização para botões */
+.button-1 {
+  background-color: #005003;
+  /* Verde escuro */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 25px;
+}
+.button-2 {
+  background-color: #2e2d2e;
+  /* Verde escuro */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 25px;
+}
+.button-1:hover {
+  background-color: #fff;
+  color: #38833b;
+  /* Verde mais claro */
+}
+.button-2:hover{
+  background-color: #ffffff;
+  color: #000000;
+}
+/* Estilização para links */
+a {
+  color: #4caf50;
+  /* Verde escuro */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #275b29;
+  /* Verde mais escuro (explicação: é link, geralmente fica mais escuro ou troca a cor) */
+}
+
+.noMargin .mx-wd{
+  margin: 0px auto 0px auto !important;
+}
+/* FOOTBALL */
+.football{
+  background-color: #013f0a !important;
+}
+.muay{
+  background-color: #333;
+}
+.sobre-sidebar {
+  background-color: #333;
+  padding: 10px 25px;
+  color: #013103;
+  /* Verde escuro */
+  line-height: 1.5;
+}
+
+.sobre-sidebar p {
+  margin-top: 10px;
+  color: #fff;
+}
+.sobre-sidebar h2{
+  color: #fff;
+}
+.sobre-sidebar a{
+  color: #fff;
+}
+/* Estilo para os botões de navegação do carrossel */
+
+.redes-sociais {
+  margin-top: 10px;
+}
+
+.social-icon {
+  background-color: transparent;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
